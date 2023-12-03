@@ -1,0 +1,15 @@
+package View;
+
+import javax.swing.*;
+
+public class Demo {
+    public static void main(String[] args) {
+        JFrame jf = new JFrame();
+        jf.setSize(600, 400); // Nhập tỉ lệ khung hình.
+        jf.setTitle("DEMO");   // Điền tên của cửa sổ.
+        jf.setLocation(430,130); // Set hiển thị cửa sổ trên màn hình.
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // thoát ra khỏi trường trình khi đóng JFrame.
+        jf.setVisible(true);  //Lệnh cho phép hiển thị (True = Hiện,  False = )
+
+    }
+}
